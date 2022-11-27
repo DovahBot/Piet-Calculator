@@ -2,6 +2,8 @@
 > This converts the input expression from infix to postfix notation
 
 The following Piet program resembles the [Shunting Yard Algorithm](https://en.wikipedia.org/wiki/Shunting_yard_algorithm)
+
+
 ![](/InfixToPostfix/infixToPostfix.png)
 
 ## Program Map
@@ -9,6 +11,7 @@ The following Piet program resembles the [Shunting Yard Algorithm](https://en.wi
 ![](/InfixToPostfix/infixToPostfix_Eval.png)
 
 ## Explanation
+> Note: Unfortunately Github markdown does not support HTML text coloring...
 ### <span style="color:cyan">Input Reading / Initial Logic (Blue)</span>
 1. Push 0 onto stack
 2. The start of the programs main while loop
