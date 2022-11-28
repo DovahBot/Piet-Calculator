@@ -67,4 +67,4 @@ The following Piet program resembles the [Shunting Yard Algorithm](https://en.wi
     - 4a - Correct CC and go back to <span style="color:lime">green 2</span>
 
 ## Limitations
-Does not handle multi-digit numbers, negative numbers, or exponents.
+Does not handle multi-digit numbers, negative numbers, or exponents in input.

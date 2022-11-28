@@ -6,6 +6,7 @@
 1. [Programs](#programs)
    1. [Infix To Postfix Converter](#infix-to-postfix-converter)
    2. [Postfix Calculator](#postfix-calculator)
+   3. [PietCalc.cpp](#pietcalccpp)
 2. [About Piet](#about-piet)
 3. [Project Notes](#project-notes)
    1. [Limitations](#limitations)
@@ -18,7 +19,7 @@
 ### Infix To Postfix Converter
 
 > This converts an expression from infix to postfix notation
-> <br>**See a detailed explanation [here](/InfixToPostfix/README.md)**
+> <br>**[See a detailed explanation here](/InfixToPostfix/README.md)**
 ![](/InfixToPostfix/infixToPostfix.png)
 ```
 Input: 1+(3-4)*9/2
@@ -28,12 +29,16 @@ Output: 134-9*2/+
 ### Postfix Calculator
 
 > This takes a postfix notation expression as input and calculates the result
-> <br>**See a detailed explanation [here](/PostfixCalc/README.md)**
+> <br>**[See a detailed explanation here](/PostfixCalc/README.md)**
 ![](/PostfixCalc/postfixCalc.png)
 ```
 Input: 134-9*2/+
 Output: -3
 ```
+
+### PietCalc.cpp
+
+This .cpp file is just showing how I initially planned the algorithm prior to diving into Piet. It's not the prettiest or most efficient, but I wanted to write the code as if most of the limitations of Piet were in place.
 
 ## About Piet
 
@@ -43,7 +48,7 @@ Piet is an esoteric programming language, named after the artist Piet Mondrian, 
 
 ## Project Notes
 
-This calculator begins with a conversion to postfix as it is significantly easier **in Piet** to calculate the value of a postfix expression rather than an infix one.
+This calculator begins with a conversion to postfix (aka Reverse Polish Notation (RPN)) as it is significantly easier ***in Piet*** to calculate the value of a postfix expression rather than an infix one.
 
 I initially imagined this calculator to be confined within a single image, instead of one program to convert from infix to postfix and another to calculate. However, after making significant progress on the former I realized without access to anotherr stack to store program output for later, this would be very difficult.
 
