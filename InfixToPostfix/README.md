@@ -8,6 +8,7 @@ The following Piet program resembles the [Shunting Yard Algorithm](https://en.wi
 
 ## Program Map
 > Use this to follow the explanation below
+
 ![](/InfixToPostfix/infixToPostfix_Eval.png)
 
 ## Explanation
@@ -19,7 +20,7 @@ The following Piet program resembles the [Shunting Yard Algorithm](https://en.wi
     - 2a - Ensures CC is set to left
 3. Push 48 (0) to stack to check if **token** is a digit or operator
 4. If **token** is an operator (or parenthesis) go to <span style="color:red">red</span>
-5. Else input char is a digit, so output the number and loop back to <span style="color:cyan">blue 2</span>
+5. Else **token** is a digit, so output the number and loop back to <span style="color:cyan">blue 2</span>
 
 ### <span style="color:red">Parenthesis Check (Red)</span>
 1. Push 40 ('(') onto the stack, if **token** is left paren go to <span style="color:red">red 1a</span>
